@@ -1,7 +1,5 @@
 <h1>Films</h1>
 
-<% films = Film.all %>
-
-<% films.each do |film| %>
+<% @films.each do |film| %>
 	<p><% = film.name %></p>
 <% end %>
